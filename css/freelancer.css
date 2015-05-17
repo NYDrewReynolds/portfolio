@@ -114,8 +114,8 @@ header .intro-text .name {
     font-weight: 700;
 }
 
-header .intro-text .skills {
-    font-size: 1.25em;
+header .element {
+    font-size: 2em;
     font-family: courier;
     font-weight: 300;
     color: red;
@@ -476,4 +476,32 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+/* Custom CSS */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 2em;
+    font-family: courier;
+    font-weight: 300;
+    color: red;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

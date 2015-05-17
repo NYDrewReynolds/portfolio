@@ -17,6 +17,19 @@
     <!-- Custom CSS -->
     <link href="./css/freelancer.css" rel="stylesheet">
 
+    <!-- TypedJS & Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="./js/typed.js"></script>
+      <script>
+        $(function(){
+          $(".element").typed({
+            strings: ["I build things with code."],
+            typeSpeed: 30
+            });
+          });
+      </script>
+
     <!-- Custom Fonts -->
     <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -50,12 +63,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="./img/profile.jpg" alt="">
+                    <img class="img-responsive" src="./img/profile.png" alt="">
                     <div class="intro-text">
                         <span class="hello">Hey, my name is</span>
                         <span class="name">Drew Reynolds</span>
-                        <span class="skills">I build things with code.|</span>
                     </div>
+                    <div class="element"></div>
                 </div>
             </div>
 
